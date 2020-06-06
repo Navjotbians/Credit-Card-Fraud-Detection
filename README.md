@@ -21,6 +21,9 @@ The datasets contains transactions made by credit cards in September 2013 by eur
 
 This data is highly imbalanced, as it has only 0.172% transections that are fradulent. Here, I have tried above outlined models along with adding some weights to the class which belongs to the fraud transections. For measuring the accuracy, precision,recall and F-Score is used because confusion matrix is not meaningful for unbalanced classification.
 
+As we can see in this below shown graph that our data is highly imbalanced because of this we should not use supervised learning directly, it will overfit based on the non fraud transections.
+![picture](Graphs/Imbalanced classes.png)
+
 ## Installation:
 
 All the required installation are mentioned in the requirements.txt
@@ -34,4 +37,6 @@ All the required installation are mentioned in the requirements.txt
 
 ![picture](Graphs/Comparision_Unprocessed.png)
 
-### Model evaluation results with data normalisation
+### Model evaluation results with data normalisation  
+
+![picture](Graphs/Comparision_processed.png)
