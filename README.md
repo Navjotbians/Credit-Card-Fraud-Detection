@@ -23,7 +23,8 @@ This data is highly imbalanced, as it has only 0.172% transections that are frad
 
 As we can see in this below shown graph that our data is highly imbalanced because of this we should not use supervised learning directly, it will overfit based on the non fraud transections.
 
-![picture](Graphs/Imbalanced classes.png)
+
+![picture](Graphs/Comparision_Unprocessed.png)
 
 ## Installation:
 
