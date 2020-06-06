@@ -26,6 +26,11 @@ As we can see in this below shown graph that our data is highly imbalanced becau
 
 ![picture](Graphs/Imbalanced_classes.png)
 
+Data distribution
+
+
+![picture](Graphs/distplot.png)
+
 ## Installation:
 
 All the required installation are mentioned in the requirements.txt
