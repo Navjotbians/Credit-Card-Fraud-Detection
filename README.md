@@ -16,3 +16,16 @@ The datasets contains transactions made by credit cards in September 2013 by eur
 4. XGBoost
 5. SVM
 6. ANN (MLP)
+
+## Inspiration
+
+This data is highly imbalanced, as it has only 0.172% transections that are fradulent. Here, I have tried above outlined models along with adding some weights to the class which belongs to the fraud transections. For measuring the accuracy, precision,recall and F-Score is used because confusion matrix is not meaningful for unbalanced classification.
+
+# Installation:
+
+All the required installation are mentioned in the requirements.txt
+
+## File descriptions
+
+* Fraud detection.ipynb – Evaluation of models without data normalisation
+* Fraud Detection_processed.ipynb – Evaluation of models with data normalisation.
